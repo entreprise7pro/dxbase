@@ -273,6 +273,7 @@
         "drupal/formblock": "^2.0.0-beta2",
         "drupal/linkchecker": "^1.0@alpha",
         "drupal/libraries": "^3.0@beta",
-        "drupal/jquery_ui_datepicker": "^1.0"
+        "drupal/jquery_ui_datepicker": "^1.0",
+        "drupal/workflow": "^1.4"
     }
 }
