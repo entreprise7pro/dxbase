@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "beb7ee5c8bcedfe17fd2c55c1fcdbfea",
+    "content-hash": "a51fdc767577f2163e83520de48b026f",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -13129,32 +13129,29 @@
         },
         {
             "name": "drupal/wxt_bootstrap",
-            "version": "1.26.0",
+            "version": "dev-4.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/wxt_bootstrap.git",
-                "reference": "8.x-1.26"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/wxt_bootstrap-8.x-1.26.zip",
-                "reference": "8.x-1.26",
-                "shasum": "531538c9181d1a98d4dd5d6b083fafc4152e59c2"
+                "reference": "0dd8012712280b29c0d23d9ce159375a6b850c71"
             },
             "require": {
-                "composer/installers": "^1.2",
                 "cweagans/composer-patches": "^1.6.0",
                 "drupal/bootstrap": "3.23",
-                "drupal/core": "8.*"
+                "drupal/core": "8.* || 9.*",
+                "oomphinc/composer-installers-extender": "^1.1 || ^2"
             },
             "type": "drupal-theme",
             "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
                 "drupal": {
-                    "version": "8.x-1.26",
-                    "datestamp": "1603329801",
+                    "version": "8.x-4.2+11-dev",
+                    "datestamp": "1611604467",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
                 "installer-paths": {
@@ -22962,6 +22959,12 @@
             "version": "6.0.0.0-beta2",
             "alias": "5.0-beta11",
             "alias_normalized": "5.0.0.0-beta11"
+        },
+        {
+            "package": "drupal/wxt_bootstrap",
+            "version": "4.9999999.9999999.9999999-dev",
+            "alias": "1.26",
+            "alias_normalized": "1.26.0.0"
         }
     ],
     "minimum-stability": "dev",

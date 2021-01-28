@@ -195,10 +195,6 @@
                 "https://www.drupal.org/files/issues/2021-01-08/1875456-82.patch"
             },
             "drupal/wxt_bootstrap": {
-                "W3C - make image twig output empty ALT attribute when no ALT text is provided":
-                "https://www.drupal.org/files/issues/2021-01-19/D9-W3C-make-image-twig-output-empty-ALT-attribute-when-no-ALT-text-is-provided-3193622-5.patch",
-                "WCAG - Add roles to all menu UL LI and AHREF / LINK 3164631":
-                "https://www.drupal.org/files/issues/2020-10-16/wcag-add-roles-to-all-menu-ul-li-ahref-link-3164631-17.patch",
                 "WCAG - unnecessary roles.":
                 "https://www.drupal.org/files/issues/2020-12-17/wxt_bootstrap-w3c_warnings_unnecessary_roles-3154001-11.patch"
             }
@@ -279,6 +275,7 @@
         "drupalwxt/wxt": "dev-8.x-3.x",
         "drush/drush": "^10.0",
         "psr/container": "^1.0",
-        "scssphp/scssphp": "^1.1"
+        "scssphp/scssphp": "^1.1",
+        "drupal/wxt_bootstrap": "4.x-dev@dev as 1.26"
     }
 }
