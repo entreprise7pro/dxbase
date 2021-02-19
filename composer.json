@@ -276,6 +276,7 @@
         "drush/drush": "^10.0",
         "psr/container": "^1.0",
         "scssphp/scssphp": "^1.1",
-        "drupal/wxt_bootstrap": "4.x-dev@dev as 1.26"
+        "drupal/wxt_bootstrap": "4.x-dev@dev as 1.26",
+        "drupal/sansdesordre": "^1.0@beta"
     }
 }
