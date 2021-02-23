@@ -180,6 +180,10 @@
                 "Synchronize moderation states between all translations of the entity":
                 "https://www.drupal.org/files/issues/2020-06-17/sync_all_translations_states-3143559-18.patch"
             },
+            "drupal/pathauto": {
+                "Prevent duplicate aliases.":
+                 "https://www.drupal.org/files/issues/2020-01-17/pathauto-3107144-2.patch"
+            },
             "drupal/token": {
                 "Token module patch issue 2906445.":
                  "https://www.drupal.org/files/issues/2020-01-04/2906445-token-entity-reference-returns-default-language-5.patch"
