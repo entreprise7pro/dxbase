@@ -148,6 +148,10 @@
                 "fix French revisions page always shows English revision state":
                 "https://www.drupal.org/files/issues/2021-02-19/diff-show-correct-workflow-state-on-french-revisions-page-3199354-2.patch"
             },
+            "drupal/wxt": {
+                "wcag - fix the report a problem webform markup":
+                "https://www.drupal.org/files/issues/2021-01-22/wxt-ext-webform-config-change-3194287-3.patch"
+            },
             "drupal/entity_embed": {
                 "entity_embed-remove_image_attributes_from_div-3086162":
                 "https://www.drupal.org/files/issues/2020-06-15/entity_embed-remove_image_attributes_from_div-3086162-13_0.patch"
