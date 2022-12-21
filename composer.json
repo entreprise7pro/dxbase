@@ -107,11 +107,8 @@
                "BigPipe when server under heavy load results in PHP notices":
                 "https://www.drupal.org/files/issues/2021-11-19/D93x-3194462-20.patch",
                 "2350939 - REMOVE WHEN UPGRADING TO D10.1.x, - Implement a generic revision UI, Drupal 10x functionality for Drupal 9.4.x": "https://www.drupal.org/files/issues/2022-06-23/2350939-228.patch",
-                "3016131 - getPath() on null config_translation crash fix.": "https://www.drupal.org/files/issues/2020-05-26/drupal-3016131-23-useless-exception.patch",
                 "Performance and usability patch that replaces sansdesordre #3110371":
                 "https://www.drupal.org/files/issues/2021-04-21/D91x-3110371-4.patch",
-                "2907413 - Layout builder override wxt":
-                "https://www.drupal.org/files/issues/2022-07-20/2907413-28.patch",
                 "Performance and scalability, do not load disabled menu links on the add/node /edit/node page/route.":
                 "https://www.drupal.org/files/issues/2021-04-21/D9_performance_and_scalability-3202930-6.patch",
                 "file usage bug fixes":
@@ -126,13 +123,9 @@
                 "https://www.drupal.org/files/issues/2020-06-20/node-preview_current_language-3150728-12.patch",
                 "2951294 - Language negotiation core fix, needed by access_unpublished and content moderation for forward draft revisions in non default language.":
                 "https://www.drupal.org/files/issues/2021-06-29/drupal-fix_fallback-2951294-39.patch",
-                "1356276 - Profile sub profiles phenaproxima": "https://www.drupal.org/files/issues/2022-06-17/1356276-686.patch",
                 "3247045 - Call to isTranslatable() on null in _menu_ui_node_save": "https://www.drupal.org/files/issues/2021-12-02/D94x-dev-member-function-isTranslatable-on-null-3247045-15.patch",
                 "2931680 - Term weight translatability, order term translations differently": "https://www.drupal.org/files/issues/2021-11-22/D93x-2931680-25-reroll.patch",
                 "1166282 - Titles truncated on parent menu": "https://www.drupal.org/files/issues/2021-04-12/1166282-30.patch",
-                "3284468 - Translate views no results field level Reroll for 9.4.x": "https://www.drupal.org/files/issues/2022-03-09/d9-4-x--3107212-13.patch",
-                "2921627 - Reroll patch for 9.4.x": "https://www.drupal.org/files/issues/2022-03-11/2921627-75.patch",
-                "3150294 - Reroll patch for 9.4.x": "https://www.drupal.org/files/issues/2022-05-11/3150294-109.patch",
                 "3130504 - Ajax was previously messing up base_path prefix for destination parameters apply filter on view enabled with ajax on a site using an alias like /qa": "https://www.drupal.org/files/issues/2022-06-21/3130504-20.patch",
                 "3239132 - Javascript errors on node/edit and node/add pages.": "https://www.drupal.org/files/issues/2022-06-20/D94x-partial_revert-3239132-15.patch",
                 "3241056 - Add changed time tracking to path_alias": "https://www.drupal.org/files/issues/2021-10-06/3241056_5.patch",
@@ -155,10 +148,6 @@
             "drupal/css_editor": {
                 "3248990 - Optimize cache rebuilding using tags instead of flush all":
                 "https://www.drupal.org/files/issues/2021-11-12/css-editor-replace-cache-flush-by-cache-tag-invalidation-3248990-5.diff"
-            },
-            "drupal/convert_bundles": {
-                "3305763 - Optimize cache rebuilding using tags instead of flush all":
-                "https://www.drupal.org/files/issues/2022-08-24/3305763-03-redirecting-to-external-urls-are-not-allowed-for-base-path.patch"
             },
             "drupalwxt/diff": {
                 "fix French revisions page always shows English revision state":
